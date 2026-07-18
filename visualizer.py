@@ -3,7 +3,7 @@ class ModelPerformanceVisualizer:
         self.scores = accuracy_scores
 
     def generate_distribution_report(self) -> None:
-        """Simulates rendering accuracy frequency graphs directly into tracking terminals."""
+        
         print("[INFO] Constructing Data Model Performance Metrics...")
         print("\n--- PERFORMANCE DISTRIBUTION MATRIX ---")
         
@@ -21,7 +21,7 @@ class ModelPerformanceVisualizer:
             print(f"{group.ljust(10)} | {graph_bar.ljust(15)} ({count} iterations completed)")
             
         mean_accuracy = sum(self.scores) / len(self.scores)
-        print("---------------------------------------")
+       
         print(f"Calculated Mean System Accuracy: {round(mean_accuracy, 2)}%")
         print("[SUCCESS] Analytical metrics structural log finalized.")
 
