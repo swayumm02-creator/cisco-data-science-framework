@@ -32,5 +32,5 @@ if __name__ == "__main__":
     for key, value in metrics.items():
         formatted_key = key.replace("_", " ").title()
         print(f"{formatted_key}: {value}")
-    print("----------------------------------")
+    
     print("[SUCCESS] Data pipeline validated for ML model ingestion.")
