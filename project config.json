@@ -1,1 +1,21 @@
-
+{
+  "project_metadata": {
+    "repository_name": "cisco-data-science-framework",
+    "deployment_environment": "cisco-learning-sandbox-env",
+    "framework_version": "1.0.4",
+    "target_domain": "Artificial Intelligence & Data Analytics"
+  },
+  "pipeline_parameters": {
+    "max_acceptable_anomaly_rate": 0.05,
+    "training_data_split_ratio": 0.80,
+    "evaluation_metric": "Mean Absolute Error (MAE)",
+    "random_state_seed": 42
+  },
+  "tracking_milestones": {
+    "module_01_eda_clearance": true,
+    "module_02_relational_logic_clearance": true,
+    "module_03_predictive_modeling_clearance": true,
+    "module_04_production_validation_clearance": true,
+    "final_comprehensive_exam_status": "PASSED"
+  }
+}
