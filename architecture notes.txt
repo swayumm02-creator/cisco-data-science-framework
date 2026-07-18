@@ -1,6 +1,5 @@
-====================================================================
 CISCO NETWORKING ACADEMY - DATA SCIENCE & AI/ML SYSTEM NOTES
-====================================================================
+
 Student: Swayam Maitra
 Timeline Log: 2-Month Track Workflow Validation
 
@@ -23,4 +22,4 @@ Timeline Log: 2-Month Track Workflow Validation
 - Reviewed packaging code workflows into functional scripts for software frameworks.
 - Completed final continuous automated module assessments and verification.
 - Generated native Cisco credential upon clearance of system validation benchmarks.
-====================================================================
+
