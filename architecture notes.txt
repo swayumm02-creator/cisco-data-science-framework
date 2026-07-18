@@ -1,1 +1,26 @@
+====================================================================
+CISCO NETWORKING ACADEMY - DATA SCIENCE & AI/ML SYSTEM NOTES
+====================================================================
+Student: Swayam Maitra
+Timeline Log: 2-Month Track Workflow Validation
 
+[WEEK 1-2]: DATA EXTRACTION & INTEGRITY
+- Learned to isolate structured rows from unstructured text files.
+- Studied data mapping structures to deal with missing rows without skewing biases.
+- Handled feature variance concepts across standard tabular sheets.
+
+[WEEK 3-4]: DATA ARCHITECTURE & MAPPING
+- Explored relationship schemas connecting separate tables via primary indexing.
+- Documented how tracking timestamps across data models ensures real-time model accuracy.
+- Analyzed the impact of database design choices on machine learning performance.
+
+[WEEK 5-6]: PREDICTIVE SYSTEM DESIGN
+- Studied supervised vs unsupervised learning pathways.
+- Evaluated classification trees and linear regression strategies.
+- Documented model training split ratios (e.g., 80/20 train-test splits) for model reliability.
+
+[WEEK 7-8]: PIPELINE FINALIZATION
+- Reviewed packaging code workflows into functional scripts for software frameworks.
+- Completed final continuous automated module assessments and verification.
+- Generated native Cisco credential upon clearance of system validation benchmarks.
+====================================================================
