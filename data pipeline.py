@@ -1,21 +1,11 @@
-"""
-Cisco Data Science Framework - Pipeline Validation Module
-Author: Swayam Maitra
-Description: Simulates corporate data cleaning and throughput processing loops.
-"""
-
 import math
-
 class DataPipelineValidator:
     def __init__(self, dataset_name: str, total_records: int):
         self.dataset_name = dataset_name
         self.total_records = total_records
 
     def process_and_clean_data(self, anomaly_rate: float) -> dict:
-        """
-        Simulates parsing a database, treating anomalies, and
-        validating records for machine learning model ingestion.
-        """
+        
         if not (0.0 <= anomaly_rate <= 1.0):
             raise ValueError("Anomaly rate must be between 0.0 and 1.0")
             
@@ -34,7 +24,7 @@ class DataPipelineValidator:
 if __name__ == "__main__":
     print("[INFO] Initializing Cisco AI/ML Data Pipeline Simulator...")
     
-    # Simulate processing a retail/sales inventory dataset
+   
     pipeline = DataPipelineValidator(dataset_name="Retail_Sales_Inventory", total_records=15500)
     metrics = pipeline.process_and_clean_data(anomaly_rate=0.045)
     
